@@ -18,25 +18,31 @@ Unlike particle-based simulations, the Vlasov approach models the distribution o
 
 **Vlasov equation:**
 
+$$
 \[
 \frac{\partial f}{\partial t}
 +v\frac{\partial f}{\partial x}
 +\frac{qE}{m}\frac{\partial f}{\partial v}=0
 \]
+$$ 
 
 **Poisson's equation:**
 
+$$
 \[
 \frac{\partial E}{\partial x}
 =\frac{\rho}{\epsilon_0}
 \]
+$$
 
 **Charge density:**
 
+$$
 \[
 \rho=q(n_e-n_0), \qquad
 n_e=\int f(x,v,t)\,dv
 \]
+$$
 
 Here, \(f(x,v,t)\) is the distribution function, \(E\) is the electric field, \(q\) is particle charge, \(m\) is particle mass, and \(n_0\) is the uniform neutralizing-background density.
 
